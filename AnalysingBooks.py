@@ -74,3 +74,4 @@ def get_top_entries(entries, inverted_index):
 histogram = analyse_word_usage('pg1661.txt')
 inverted_index = invert_index(histogram)
 get_top_entries(50,inverted_index)
+print('Total Words ',len(histogram))
